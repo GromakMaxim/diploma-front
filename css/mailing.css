@@ -1,0 +1,107 @@
+.mailing {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.mailing>h4 {
+    position: relative;
+    font-family: OpenSans-Bold;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+}
+
+.mailing>h4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    height: 3px;
+    background-color: #e1d9bd;
+    right: 0;
+    display: block;
+    margin: -15px auto
+}
+
+.subscribe-field {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f4f7f6;
+    border-radius: 0;
+    border: 0;
+    font-family: OpenSans-Regular;
+    padding: 10px 25px 10px 15px;
+}
+
+.subscribe-field:focus {
+    outline: none;
+    border-color: #b59f5b
+}
+
+.subscribe {
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.button-sub {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid #dadada;
+    display: inline-block;
+    height: 47px;
+    border-radius: 0;
+    background-color: #b59f5b;
+    margin-top: 20px;
+    font-family: OpenSans-Bold;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+@media screen and (min-width:1200px) {
+    .mailing>h4 {
+        align-self: center;
+        font-size: 0.8vw;
+    }
+    .subscribe-field {
+        font-size: 0.7vw;
+    }
+    .button-sub {
+        font-size: 0.7vw;
+        height: 47px;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width:1199px) {
+    .mailing {
+        align-items: center
+    }
+    .subscribe-field {
+        font-size: 1.8vw;
+    }
+    .subscribe {
+        width: 100%;
+    }
+    .button-sub {
+        font-size: 1.6vw;
+        height: 47px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .mailing>h4 {
+        align-self: center;
+        font-size: 4vw;
+    }
+    .subscribe {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .subscribe-field {
+        font-size: 3vw;
+    }
+    .button-sub {
+        font-size: 3vw;
+    }
+}
