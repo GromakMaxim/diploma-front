@@ -188,3 +188,48 @@
         font-size: 4vw;
     }
 }
+
+@media screen and (max-width:640px) and (orientation:landscape) {
+    .trends-title {
+        position: relative;
+        height: 50px;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+    .trends-section {
+        margin-top: 20px;
+    }
+    .trends {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .trends-title>h4::after {
+        bottom: 20px;
+    }
+    .trend:last-child {
+        margin-bottom: 5px;
+    }
+    .trend {
+        width: 49%;
+        margin-bottom: 5px;
+        justify-content: center;
+    }
+    .trend:nth-child(odd) {
+        margin-right: 5px;
+    }
+    .trend-content {
+        position: absolute;
+        box-sizing: border-box;
+        width: 85%;
+        border: 3px solid #b59f5b;
+        padding: 7% 4% 7% 4%;
+        bottom: 20px;
+        z-index: 3;
+    }
+    .trend-title {
+        font-size: 2vw;
+    }
+    .trend-keywords>a {
+        font-size: 3vw;
+    }
+}

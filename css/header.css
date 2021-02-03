@@ -183,3 +183,9 @@ header::after {
         top: 8px;
     }
 }
+
+@media screen and (max-width:640px) and (orientation:landscape) {
+    header {
+        height: 200vw;
+    }
+}
