@@ -4,14 +4,14 @@
     flex-direction: column;
 }
 
-.mailing>h4 {
+.mailing-title {
     position: relative;
     font-family: OpenSans-Bold;
     text-transform: uppercase;
     font-size: 1.8vw;
 }
 
-.mailing>h4::after {
+.mailing-title::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -58,8 +58,15 @@
     color: #FFF;
 }
 
+.mailing-input {
+    height: 47px;
+    width: 47px;
+    background: #b59f5b;
+    color: #000;
+}
+
 @media screen and (min-width:1200px) {
-    .mailing>h4 {
+    .mailing-title {
         align-self: center;
         font-size: 0.8vw;
     }
@@ -89,7 +96,7 @@
 }
 
 @media screen and (max-width:640px) {
-    .mailing>h4 {
+    .mailing-title {
         align-self: center;
         font-size: 4vw;
     }

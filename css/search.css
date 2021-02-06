@@ -17,7 +17,7 @@
     margin: 0;
 }
 
-.search button {
+.search-button {
     background-color: #b59f5b;
     background-image: url(../svg/search.svg);
     background-repeat: no-repeat;
@@ -32,20 +32,13 @@
     border-color: #b59f5b;
 }
 
-input {
-    height: 47px;
-    width: 47px;
-    background: #b59f5b;
-    color: #000;
-}
-
 @media screen and (min-width:1200px) {
     .field {
         width: 95%;
         font-size: 0.8vw;
         height: 55px;
     }
-    .search button {
+    .search-button {
         width: 55px;
         height: 55px;
     }
@@ -57,7 +50,7 @@ input {
         font-size: 1.6vw;
         height: 47px;
     }
-    .search button {
+    .search-button {
         width: 15%;
     }
 }
@@ -74,7 +67,7 @@ input {
         font-size: 14px;
         height: 47px;
     }
-    .search button {
+    .search-button {
         width: 47px;
     }
 }

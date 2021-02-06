@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-header {
+.header {
     background-color: #000;
     background-position: center top;
     background-repeat: no-repeat;
@@ -12,12 +12,7 @@ header {
     position: relative;
 }
 
-.first-line {
-    display: flex;
-    box-sizing: border-box;
-}
-
-header::after {
+.header::after {
     content: "";
     background-color: #000;
     position: absolute;
@@ -26,6 +21,11 @@ header::after {
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.first-line {
+    display: flex;
+    box-sizing: border-box;
 }
 
 .header-logo {
@@ -44,7 +44,7 @@ header::after {
 }
 
 @media screen and (min-width:1200px) {
-    header {
+    .header {
         background-image: url(../images/banner-bg.jpg);
         margin-bottom: 50px;
         padding-top: 26px;
@@ -64,7 +64,7 @@ header::after {
         height: 40%;
     }
     .first-line>a,
-    li a {
+    .menu-link {
         text-decoration: none;
         color: #FFF;
     }
@@ -99,15 +99,15 @@ header::after {
         margin: 1% auto 0;
     }
     .first-line>a:visited,
-    li a,
+    .menu-link,
     .first-line>a:active,
-    li a {
+    .menu-link {
         color: #FFF;
     }
 }
 
 @media screen and (min-width:641px) and (max-width:1199px) {
-    header {
+    .header {
         width: 100%;
         height: 500px;
         background-image: url(../images/banner-bg-tablet.jpg);
@@ -132,7 +132,7 @@ header::after {
 }
 
 @media screen and (max-width:640px) {
-    header {
+    .header {
         width: 100vw;
         height: 100vh;
         background-image: url(../images/banner-mobile.jpg);
@@ -185,7 +185,7 @@ header::after {
 }
 
 @media screen and (max-width:640px) and (orientation:landscape) {
-    header {
+    .header {
         height: 200vw;
     }
 }

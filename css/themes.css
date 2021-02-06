@@ -6,7 +6,7 @@
     margin-top: 40px
 }
 
-.themes h4 {
+.themes-title {
     display: flex;
     font-family: OpenSans-Bold;
     text-transform: uppercase;
@@ -14,7 +14,7 @@
     font-size: 1.8vw;
 }
 
-.themes>h4::after {
+.themes-title::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -35,7 +35,7 @@
     margin-top: 40px
 }
 
-.themes-container li {
+.theme {
     width: 100%;
     height: 50px;
     box-sizing: border-box;
@@ -43,11 +43,12 @@
     padding-top: 10px
 }
 
-.themes-container a {
+.theme-link {
     text-decoration: none;
     color: #000;
     font-family: OpenSans-Bold;
     text-transform: capitalize;
+    margin: auto
 }
 
 .counter {
@@ -56,20 +57,16 @@
     vertical-align: super;
 }
 
-.themes-container>a {
-    margin: auto
-}
-
-.themes-container>a:visited,
-.themes-container>a:active {
+.theme-link:visited,
+.theme-link:active {
     color: #000
 }
 
 @media screen and (min-width:1200px) {
-    .themes h4 {
+    .themes-title {
         font-size: 0.8vw;
     }
-    .themes-container a {
+    .theme-link {
         font-size: 0.9vw;
     }
     .counter {
@@ -78,10 +75,10 @@
 }
 
 @media screen and (min-width:641px) and (max-width:1199px) {
-    .themes h4 {
+    .themes-title {
         font-size: 1.7vw;
     }
-    .themes-container a {
+    .theme-link {
         font-size: 1.6vw;
     }
     .counter {
@@ -95,19 +92,17 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .themes>h4 {
+    .themes-title {
         font-size: 4vw;
     }
-    .themes-container a {
+    .theme-link {
         font-size: 4.5vw;
+        text-decoration: none;
     }
     .counter {
         font-family: OpenSans-Bold;
         color: #b59f5b;
         vertical-align: super;
         font-size: 4vw;
-    }
-    .themes-container>a {
-        text-decoration: none;
     }
 }

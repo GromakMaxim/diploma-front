@@ -1,4 +1,4 @@
-main {
+.main {
     display: flex;
     width: 80%;
     justify-content: space-between;
@@ -26,6 +26,13 @@ main {
     text-transform: uppercase;
     padding-bottom: 10px;
     font-family: OpenSans-Bold;
+    margin: 0;
+}
+
+.post-title>a,
+.post-title>a:active {
+    text-decoration: none;
+    color: #000;
 }
 
 .date-author,
@@ -34,15 +41,13 @@ main {
     font-family: OpenSans-Regular;
 }
 
-.post-title>a,
-.post-title>a:active,
-.post-title h4>a {
-    text-decoration: none;
-    color: #000;
+.post-time {
+    padding-right: 15px;
+    color: grey;
 }
 
-h4 {
-    margin: 0;
+.author {
+    font-weight: 700;
 }
 
 .keywords>a {
@@ -74,20 +79,13 @@ h4 {
         padding-bottom: 55px;
         font-size: 0.8vw;
     }
-    time {
-        padding-right: 15px;
-        color: grey;
-    }
-    .author {
-        font-weight: 700;
-    }
     .post-description {
         font-size: 0.95vw;
     }
 }
 
 @media screen and (min-width:641px) and (max-width:1199px) {
-    main {
+    .main {
         width: 90%;
     }
     .keywords {
@@ -115,20 +113,13 @@ h4 {
         padding-bottom: 30px;
         font-size: 2vw;
     }
-    time {
-        padding-right: 15px;
-        color: grey;
-    }
-    .author {
-        font-weight: 700;
-    }
     .post-description {
         font-size: 1.8vw;
     }
 }
 
 @media screen and (max-width:640px) {
-    main,
+    .main,
     .posts,
     .post {
         flex-direction: column;
@@ -148,13 +139,6 @@ h4 {
     .date-author {
         padding-bottom: 20px;
         font-size: 4vw;
-    }
-    time {
-        padding-right: 15px;
-        color: grey;
-    }
-    .author {
-        font-weight: 700;
     }
     .post-img {
         width: 100%;

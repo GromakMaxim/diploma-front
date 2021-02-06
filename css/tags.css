@@ -5,7 +5,7 @@
     margin-top: 40px;
 }
 
-.tags>h4 {
+.tags-title {
     font-family: OpenSans-Bold;
     text-transform: uppercase;
     position: relative;
@@ -14,7 +14,7 @@
     font-size: 1.8vw;
 }
 
-.tags>h4::after {
+.tags-title::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -34,52 +34,49 @@
     margin-top: 30px;
 }
 
-.tag-container li {
+.tag {
     height: 30px;
     box-sizing: border-box;
     align-items: center;
 }
 
-.tag-container a {
+.tag-link {
     text-decoration: none;
     color: #000;
     font-family: OpenSans-Bold;
     text-transform: uppercase;
     border: 3px solid #eee;
-    padding: 5px 10px
-}
-
-.tag-container a:hover {
-    border: 3px solid #b59f5b
-}
-
-.tag-container>a {
+    padding: 5px 10px;
     text-decoration: none;
     margin: auto
 }
 
-.tag-container>a:visited,
-.tag-container>a:active {
+.tag-link:hover {
+    border: 3px solid #b59f5b
+}
+
+.tag-link:visited,
+.tag-link:active {
     color: #000
 }
 
 @media screen and (min-width:1200px) {
-    .tags>h4 {
+    .tags-title {
         font-size: 0.8vw;
     }
-    .tag-container li {
+    .tag {
         margin: 7px 0 0 5px;
     }
-    .tag-container a {
+    .tag-link {
         font-size: 0.7vw;
     }
 }
 
 @media screen and (min-width:641px) and (max-width:1199px) {
-    .tag-container a {
+    .tag-link {
         font-size: 1.6vw;
     }
-    .tag-container li {
+    .tag {
         margin: 1.2vw 0 0 5px;
     }
 }
@@ -90,19 +87,19 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .tags>h4 {
+    .tags-title {
         font-size: 4vw;
     }
-    .tag-container li {
+    .tag {
         margin: 6px 0 0 5px
     }
-    .tag-container a {
-        font-size: 3.3vw;
+    .tag-link {
+        font-size: 3.1vw;
     }
 }
 
 @media screen and (max-width:640px) and (orientation:landscape) {
-    .tag-container a {
+    .tag-link {
         padding: 0px 10px
     }
 }

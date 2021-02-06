@@ -15,7 +15,23 @@
     margin-right: auto;
     margin-left: auto;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    padding: 0
+}
+
+.network {
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px
+}
+
+.network-link {
+    text-decoration: none;
+    color: grey;
+    margin: auto
 }
 
 .copyright {
@@ -26,32 +42,10 @@
     font-family: OpenSans-Regular
 }
 
-.social-network>a {
+.copyright-link {
     text-decoration: none;
     color: grey;
     margin: auto
-}
-
-.copyright>a {
-    text-decoration: none;
-    color: grey;
-    margin: auto
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0
-}
-
-li {
-    margin: 0;
-    padding: 0
-}
-
-.social-network li {
-    width: 25px;
-    height: 25px
 }
 
 .twitter,
@@ -103,10 +97,10 @@ li {
     font-size: 0.8vw;
 }
 
-.social-network>a:visited,
-.social-network>a:active,
-.copyright>a:visited,
-.copyright>a:active {
+.network-link:visited,
+.network-link:active,
+.copyright-link:visited,
+.copyright-link:active {
     color: grey;
 }
 
