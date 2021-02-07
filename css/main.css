@@ -1,4 +1,4 @@
-.main {
+.central-container {
     display: flex;
     width: 80%;
     justify-content: space-between;
@@ -84,7 +84,7 @@
 }
 
 @media screen and (min-width:641px) and (max-width:1199px) {
-    .main {
+    .central-container {
         width: 90%;
     }
     .keywords {
@@ -118,7 +118,7 @@
 }
 
 @media screen and (max-width:640px) {
-    .main,
+    .central-container,
     .posts,
     .post {
         flex-direction: column;
