@@ -60,21 +60,16 @@
 .trend-keywords {
     font-family: OpenSans-Bold;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
 }
 
-.trend-title>a,
-.trend-keywords>a {
-    text-decoration: none;
-    font-family: OpenSans-Bold;
-    text-transform: uppercase;
-}
-
-.trend-keywords>a {
+.trend-keyword-link {
     color: #b59f5b;
     padding-right: 20px;
 }
 
-.trend-title>a {
+.trend-title-link {
     color: #FFF;
 }
 
@@ -162,7 +157,7 @@
         justify-content: center;
         z-index: 2;
     }
-    .trend-keywords>a {
+    .trend-keyword-link {
         font-size: 3.7vw;
     }
     .trend-title {
@@ -201,7 +196,7 @@
     .trend-title {
         font-size: 2vw;
     }
-    .trend-keywords>a {
+    .trend-keyword-link {
         font-size: 3vw;
     }
 }
