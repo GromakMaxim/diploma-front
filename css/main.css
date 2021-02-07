@@ -15,10 +15,13 @@
     color: #b59f5b;
 }
 
-.posts,
-.post {
+.posts {
     display: flex;
     flex-direction: column;
+}
+
+.post {
+    display: flex;
 }
 
 .post-title {
@@ -91,8 +94,7 @@
         font-size: 2vw;
     }
     .posts {
-        width: 50%;
-        margin-right: 5%;
+        margin-right: 10%;
     }
     .post {
         flex-direction: column;
