@@ -26,7 +26,6 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
-    box-sizing: border-box;
     align-content: flex-end;
     align-items: flex-end;
     z-index: 2;
@@ -96,7 +95,6 @@
     }
     .trend-content {
         position: absolute;
-        box-sizing: border-box;
         width: 85%;
         border: 3px solid #b59f5b;
         padding: 7% 4% 7% 4%;
@@ -136,7 +134,6 @@
     }
     .trend-content {
         position: absolute;
-        box-sizing: border-box;
         width: 85%;
         border: 3px solid #b59f5b;
         padding: 7% 4% 7% 4%;
@@ -174,7 +171,6 @@
     }
     .trend-content {
         position: absolute;
-        box-sizing: border-box;
         width: 85%;
         border: 3px solid #b59f5b;
         padding: 7% 4% 7% 4%;
@@ -219,7 +215,6 @@
     }
     .trend-content {
         position: absolute;
-        box-sizing: border-box;
         width: 85%;
         border: 3px solid #b59f5b;
         padding: 7% 4% 7% 4%;

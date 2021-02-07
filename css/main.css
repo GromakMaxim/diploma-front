@@ -19,7 +19,6 @@
 .post {
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
 }
 
 .post-title {
@@ -149,7 +148,6 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 15px;
-        box-sizing: border-box;
     }
     .post-description {
         padding-bottom: 15px;

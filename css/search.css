@@ -5,7 +5,6 @@
 }
 
 .field {
-    box-sizing: border-box;
     border: 2px solid #dadada;
     padding-right: 25px;
     padding-left: 15px;

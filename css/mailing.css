@@ -1,6 +1,5 @@
 .mailing {
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
 }
 
@@ -25,7 +24,6 @@
 }
 
 .subscribe-field {
-    box-sizing: border-box;
     width: 100%;
     background-color: #f4f7f6;
     border-radius: 0;
@@ -40,12 +38,10 @@
 }
 
 .subscribe {
-    box-sizing: border-box;
     margin-top: 40px;
 }
 
 .button-sub {
-    box-sizing: border-box;
     width: 100%;
     border: 2px solid #dadada;
     display: inline-block;

@@ -1,6 +1,5 @@
 .footer {
     display: flex;
-    box-sizing: border-box;
     width: 80%;
     height: 83px;
     background-color: #f4f7f6;
@@ -10,7 +9,6 @@
 .social-network {
     display: flex;
     width: 230px;
-    box-sizing: border-box;
     background-size: 5px;
     margin-right: auto;
     margin-left: auto;

@@ -17,7 +17,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    box-sizing: border-box;
 }
 
 .product-photo {
@@ -82,7 +81,6 @@
 
 .button-goToShop {
     width: 32%;
-    box-sizing: border-box;
     border: 2px solid #dadada;
     display: inline-block;
     font-size: 0.7vw;
@@ -215,7 +213,6 @@
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        box-sizing: border-box;
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -255,7 +252,6 @@
         left: 0;
         right: 0;
         bottom: 0;
-        box-sizing: border-box;
     }
     .desc-product-img,
     .tab-product-img {
