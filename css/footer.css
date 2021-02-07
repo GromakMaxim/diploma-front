@@ -27,7 +27,6 @@
 }
 
 .network-link {
-    text-decoration: none;
     color: grey;
     margin: auto
 }
@@ -41,7 +40,6 @@
 }
 
 .copyright-link {
-    text-decoration: none;
     color: grey;
     margin: auto
 }

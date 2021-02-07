@@ -35,7 +35,6 @@
 }
 
 .product-title-link {
-    text-decoration: none;
     color: black;
 }
 
@@ -46,7 +45,6 @@
 }
 
 .product-description-link {
-    text-decoration: none;
     color: #b59f5b;
 }
 
@@ -217,7 +215,6 @@
         padding-right: 10%;
     }
     .product-title-link {
-        text-decoration: none;
         color: black;
     }
     .product-description {

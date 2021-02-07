@@ -42,7 +42,6 @@
 }
 
 .theme-link {
-    text-decoration: none;
     color: #000;
     font-family: OpenSans-Bold;
     text-transform: capitalize;
@@ -95,7 +94,6 @@
     }
     .theme-link {
         font-size: 4.5vw;
-        text-decoration: none;
     }
     .counter {
         font-family: OpenSans-Bold;
