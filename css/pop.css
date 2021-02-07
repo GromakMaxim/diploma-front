@@ -124,6 +124,9 @@
     margin-right: auto;
     justify-content: center;
     box-sizing: border-box;
+}
+
+.popup-title {
     font-family: OpenSans-Bold;
     text-transform: uppercase;
     text-align: center;
@@ -302,7 +305,7 @@
     .popup-title {
         margin-top: 2%;
     }
-    .popup-title>h4 {
+    .popup-title {
         font-size: 16px;
     }
     .popup-title::after {
@@ -349,6 +352,8 @@
     }
     .popup-title {
         margin-top: 15px;
+    }
+    .popup-title {
         font-size: 20px;
     }
     .popup-title::after {
