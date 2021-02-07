@@ -46,6 +46,16 @@
     width: 100%;
 }
 
+.trend-content {
+    position: absolute;
+    width: 85%;
+    border: 3px solid #b59f5b;
+    padding: 7% 4%;
+    left: 7.5%;
+    z-index: 3;
+    bottom: 20px;
+}
+
 .trend-title,
 .trend-keywords {
     font-family: OpenSans-Bold;
@@ -93,15 +103,6 @@
         margin: 0;
         margin-right: 5px;
     }
-    .trend-content {
-        position: absolute;
-        width: 85%;
-        border: 3px solid #b59f5b;
-        padding: 7% 4% 7% 4%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-    }
     .trend-title,
     .trend-keywords {
         font-size: 1vw;
@@ -132,14 +133,6 @@
     .trend:nth-child(odd) {
         margin-right: 5px;
     }
-    .trend-content {
-        position: absolute;
-        width: 85%;
-        border: 3px solid #b59f5b;
-        padding: 7% 4% 7% 4%;
-        bottom: 20px;
-        z-index: 3;
-    }
     .trend-title,
     .trend-keywords {
         font-size: 2vw;
@@ -168,14 +161,6 @@
         margin-bottom: 5px;
         justify-content: center;
         z-index: 2;
-    }
-    .trend-content {
-        position: absolute;
-        width: 85%;
-        border: 3px solid #b59f5b;
-        padding: 7% 4% 7% 4%;
-        bottom: 20px;
-        z-index: 3;
     }
     .trend-keywords>a {
         font-size: 3.7vw;
@@ -212,14 +197,6 @@
     }
     .trend:nth-child(odd) {
         margin-right: 5px;
-    }
-    .trend-content {
-        position: absolute;
-        width: 85%;
-        border: 3px solid #b59f5b;
-        padding: 7% 4% 7% 4%;
-        bottom: 20px;
-        z-index: 3;
     }
     .trend-title {
         font-size: 2vw;
