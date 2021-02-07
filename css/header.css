@@ -58,6 +58,7 @@ body {
         height: 450px;
     }
     .header-container {
+        max-width: 1200px;
         box-sizing: border-box;
         width: 80%;
         margin: auto;
