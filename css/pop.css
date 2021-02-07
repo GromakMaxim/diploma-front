@@ -124,16 +124,13 @@
     margin-right: auto;
     justify-content: center;
     box-sizing: border-box;
-}
-
-.popup-title>h4 {
     font-family: OpenSans-Bold;
     text-transform: uppercase;
     text-align: center;
     font-size: 18px;
 }
 
-.popup-title>h4::after {
+.popup-title::after {
     content: "";
     position: absolute;
     left: 0;
@@ -243,6 +240,7 @@
     font-family: OpenSans-Regular;
     padding: 10px 25px 10px 15px;
     margin-top: 10px;
+    resize: none;
 }
 
 .confirm-subscription {
@@ -268,10 +266,6 @@
     margin-right: auto;
 }
 
-textarea {
-    resize: none;
-}
-
 @media screen and (min-width:1201px) {
     .popup {
         width: 20vw;
@@ -281,7 +275,7 @@ textarea {
     .popup-title {
         margin-top: 10%;
     }
-    .popup-title>h4::after {
+    .popup-title::after {
         top: 90px;
     }
     .how-often,
@@ -311,7 +305,7 @@ textarea {
     .popup-title>h4 {
         font-size: 16px;
     }
-    .popup-title>h4::after {
+    .popup-title::after {
         top: 70px;
     }
     .how-often,
@@ -355,11 +349,9 @@ textarea {
     }
     .popup-title {
         margin-top: 15px;
-    }
-    .popup-title>h4 {
         font-size: 20px;
     }
-    .popup-title>h4::after {
+    .popup-title::after {
         top: 80px;
     }
     .how-often,

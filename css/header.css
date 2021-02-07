@@ -63,7 +63,7 @@ body {
         align-items: center;
         height: 40%;
     }
-    .first-line>a,
+    .noemi-logo-link,
     .menu-link {
         text-decoration: none;
         color: #FFF;
@@ -84,7 +84,7 @@ body {
         justify-content: space-between;
         padding-left: 0;
     }
-    .menu-list>li {
+    .menu-list-item {
         width: auto;
         height: auto;
         font-family: OpenSans-Regular;
@@ -98,9 +98,9 @@ body {
         font-size: 2vw;
         margin: 1% auto 0;
     }
-    .first-line>a:visited,
+    .noemi-logo-link:visited,
     .menu-link,
-    .first-line>a:active,
+    .noemi-logo-link:active,
     .menu-link {
         color: #FFF;
     }
