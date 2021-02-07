@@ -23,6 +23,16 @@
     margin: -15px auto
 }
 
+.subscribe-label,
+.button-sub-label {
+    position: absolute;
+    visibility: hidden;
+}
+
+.button-sub-label {
+    bottom: 6px;
+}
+
 .subscribe-field {
     width: 100%;
     background-color: #f4f7f6;
@@ -39,6 +49,7 @@
 
 .subscribe {
     margin-top: 40px;
+    position: relative;
 }
 
 .button-sub {

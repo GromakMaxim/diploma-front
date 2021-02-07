@@ -2,6 +2,23 @@
     display: flex;
     width: 100%;
     margin: 60px 0;
+    position: relative;
+}
+
+.search-field-label,
+.search-button-label {
+    position: absolute;
+    visibility: hidden;
+    height: 47px;
+}
+
+.search-field-label {
+    width: 80%
+}
+
+.search-button-label {
+    width: 47px;
+    right: 0;
 }
 
 .field {

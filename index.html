@@ -258,8 +258,10 @@
 
                 <!--форма поиска-->
                 <form class="search">
-                    <input type="search" class="field" name="query" placeholder="Найти..." required>
-                    <button class="search-button" type="submit"></button>
+                    <label class="search-field-label" for="search-field">Поисковое поле для ввода. Поиск.</label>
+                    <input type="search" class="field" id="search-field" name="query" placeholder="Найти..." required>
+                    <label class="search-button-label" for="id_search-button">Кнопка подтверждения ввода данных для поиска. Найти.</label>
+                    <button class="search-button" id="id_search-button" type="submit"></button>
                 </form>
 
             </div>
@@ -268,8 +270,10 @@
             <div class="mailing">
                 <h4 class="mailing-title">рассылка</h4>
                 <form class="subscribe">
-                    <input type="email" class="subscribe-field" name="query" placeholder="Ваш e-mail адрес.." required>
-                    <button class="button-sub">Подписаться</button>
+                    <label class="subscribe-label" for="subscribe-field">Поле для ввода электронного адреса для рассылки.</label>
+                    <input type="email" class="subscribe-field" id="subscribe-field" name="query" placeholder="Ваш e-mail адрес.." required>
+                    <label class="button-sub-label" for="id_button-sub">Кнопка подтверждения подписки. Подписаться.</label>
+                    <button class="button-sub" id="id_button-sub">Подписаться</button>
                 </form>
 
             </div>
