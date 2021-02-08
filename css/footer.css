@@ -1,9 +1,13 @@
 .footer {
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
     display: flex;
     width: 80%;
     height: 83px;
     background-color: #f4f7f6;
-    margin: 65px auto 75px
+    margin: 65px auto 75px;
 }
 
 .social-network {
@@ -35,7 +39,6 @@
     display: flex;
     color: grey;
     text-align: center;
-    margin-bottom: 40px;
     font-family: OpenSans-Regular
 }
 
@@ -101,7 +104,7 @@
 }
 
 @media screen and (min-width:641px) and (max-width:1199px) {
-    .footer {
+    .footer-contacts {
         width: 90%;
     }
     .copyright {
@@ -110,7 +113,7 @@
 }
 
 @media screen and (max-width:640px) {
-    .footer {
+    .footer-contacts {
         width: 90%;
     }
     .copyright {
