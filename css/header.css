@@ -12,6 +12,8 @@ ul {
 
 li {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -60,6 +62,10 @@ body {
     z-index: 2;
 }
 
+.menu-list-item:last-child {
+    margin-right: 0;
+}
+
 .container-welcome {
     position: relative;
     z-index: 2;
@@ -91,12 +97,8 @@ body {
     .menu-list {
         display: flex;
         position: relative;
-        z-index: 2;
-        width: auto;
         text-transform: uppercase;
-        font-family: OpenSans-Regular;
         justify-content: space-between;
-        padding-left: 0;
     }
     .menu-list-item {
         font-family: OpenSans-Regular;

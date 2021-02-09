@@ -8,26 +8,24 @@
     height: 83px;
     background-color: #f4f7f6;
     margin: 65px auto 75px;
+    justify-content: center;
 }
 
 .social-network {
     display: flex;
-    width: 230px;
     background-size: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-between;
     align-items: center;
-    display: flex;
     list-style-type: none;
-    padding: 0
 }
 
 .network {
-    margin: 0;
-    padding: 0;
     width: 25px;
-    height: 25px
+    height: 25px;
+    margin-right: 2vw;
+}
+
+.network:last-child {
+    margin-right: 0;
 }
 
 .network-link {
