@@ -3,6 +3,7 @@
     font-family: OpenSans-Bold;
     text-transform: uppercase;
     justify-content: center;
+    position: relative;
 }
 
 .trends {
@@ -148,7 +149,7 @@
         flex-direction: column;
     }
     .trends-title::after {
-        bottom: -80px;
+        bottom: 20px;
     }
     .trend:last-child {
         margin-bottom: 40px;

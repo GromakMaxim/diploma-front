@@ -349,7 +349,7 @@
         margin-top: 15px;
     }
     .popup-title {
-        font-size: 20px;
+        font-size: 5vw;
     }
     .popup-title::after {
         top: 80px;
@@ -357,19 +357,26 @@
     .how-often,
     .are-you-subscr,
     .tell-me {
-        margin-top: 30px;
+        margin-top: 5vh;
         margin-bottom: 1vw;
-        font-size: 15px;
+        font-size: 3vw;
     }
     .form_radio {
-        font-size: 15px;
+        font-size: 3vw;
     }
     .commit-box,
     .commit {
-        height: 20vh;
+        height: 20vw;
     }
     .frequency,
     .commit {
-        font-size: 1em;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .commit-box,
+    .commit {
+        height: auto;
     }
 }
