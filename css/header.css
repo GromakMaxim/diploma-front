@@ -30,8 +30,8 @@ button {
 
 html,
 body {
-    width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -148,7 +148,6 @@ body {
 
 @media screen and (max-width:640px) {
     .header {
-        width: 100vw;
         height: 100vh;
         background-image: url(../images/banner-mobile.jpg);
     }

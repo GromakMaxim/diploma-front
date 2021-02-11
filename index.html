@@ -258,10 +258,14 @@
 
                 <!--форма поиска-->
                 <form class="search">
-                    <label class="search-field-label" for="search-field">Поисковое поле для ввода. Поиск.</label>
-                    <input type="search" class="field" id="search-field" name="query" placeholder="Найти..." required>
-                    <label class="search-button-label" for="id_search-button">Кнопка подтверждения ввода данных для поиска. Найти.</label>
-                    <button class="search-button" id="id_search-button" type="submit"></button>
+                    <label class="search-field-label" for="search-field">
+                        <span class="tip">Поисковое поле для ввода. Поиск.</span>
+                        <input type="search" class="field" id="search-field" name="query" placeholder="Найти..." required>
+                    </label>
+                    <label class="search-button-label" for="id_search-button">
+                        <span class="tip">Кнопка подтверждения ввода данных для поиска. Найти.</span>
+                        <button class="search-button" id="id_search-button" type="submit"></button>
+                    </label>
                 </form>
 
             </div>
@@ -270,10 +274,16 @@
             <div class="mailing">
                 <h4 class="mailing-title">рассылка</h4>
                 <form class="subscribe">
-                    <label class="subscribe-label" for="subscribe-field">Поле для ввода электронного адреса для рассылки.</label>
-                    <input type="email" class="subscribe-field" id="subscribe-field" name="query" placeholder="Ваш e-mail адрес.." required>
-                    <label class="button-sub-label" for="id_button-sub">Кнопка подтверждения подписки. Подписаться.</label>
-                    <button class="button-sub" id="id_button-sub">Подписаться</button>
+                    <label class="subscribe-label" for="subscribe-field">
+                        <span class="tip">Поле для ввода электронного адреса для рассылки.</span>
+                        <input type="email" class="subscribe-field" id="subscribe-field" name="query" placeholder="Ваш e-mail адрес.." required>
+                    </label>
+
+                    <label class="button-sub-label" for="id_button-sub">
+                        <span class="tip">Кнопка подтверждения подписки. Подписаться.</span>
+                        <button class="button-sub" id="id_button-sub">Подписаться</button>
+                    </label>
+
                 </form>
 
             </div>
@@ -322,18 +332,20 @@
                     <img class="product-img" src="images/shop-item-desk1.jpg" alt="подушка">
                 </picture>
 
-                <div class="product-info">
-                    <h4 class="product-title"><a class="product-title-link" href="#0">подушки на диван</a></h4>
-                    <div class="product-description">Набор из двух подушек с модными принтами. Видео о создании <a class="product-description-link" href="#0">здесь</a>.</div>
-                </div>
-                <div class="prices_button">
-                    <div class="prices">
-                        <div class="product-previousPrice">1000<span class="rub">Р</span></div>
-                        <div class="product-currentPrice">800<span class="rub">Р</span></div>
+                <div class="strange-goldish-border">
+                    <div class="product-info">
+                        <h4 class="product-title"><a class="product-title-link" href="#0">подушки на диван</a></h4>
+                        <div class="product-description">Набор из двух подушек с модными принтами. Видео о создании <a class="product-description-link" href="#0">здесь</a>.</div>
                     </div>
-                    <a class="button-goToShop" id="pillow" href="#buypillow">в магазин</a>
+                    <div class="prices_button">
+                        <div class="prices">
+                            <div class="product-previousPrice">1000<span class="rub">Р</span></div>
+                            <div class="product-currentPrice">800<span class="rub">Р</span></div>
+                        </div>
+                        <a class="button-goToShop" id="pillow" href="#buypillow">в магазин</a>
+                    </div>
                 </div>
-                <div class="strange-goldish-border"></div>
+
             </div>
             <!--2-->
             <div class="product">
@@ -343,17 +355,18 @@
                     <source media="(max-width: 639px)" srcset="images/shop-item-mobile2.jpg">
                     <img class="product-img" src="images/shop-item-desk2.jpg" alt="кукла">
                 </picture>
-
-                <div class="product-info">
-                    <h4 class="product-title"><a class="product-title-link" href="#0">кукла "зайчик"</a></h4>
-                    <div class="product-description">Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a class="product-description-link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</div>
-                </div>
-                <div class="prices_button">
-                    <div class="prices">
-                        <div class="product-previousPrice"></div>
-                        <div class="product-currentPrice">3500<span class="rub">Р</span></div>
+                <div class="strange-goldish-border">
+                    <div class="product-info">
+                        <h4 class="product-title"><a class="product-title-link" href="#0">кукла "зайчик"</a></h4>
+                        <div class="product-description">Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a class="product-description-link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</div>
                     </div>
-                    <a class="button-goToShop" id="toy" href="#buytoy">в магазин</a>
+                    <div class="prices_button">
+                        <div class="prices">
+                            <div class="product-previousPrice"></div>
+                            <div class="product-currentPrice">3500<span class="rub">Р</span></div>
+                        </div>
+                        <a class="button-goToShop" id="toy" href="#buytoy">в магазин</a>
+                    </div>
                 </div>
             </div>
             <!--3-->
@@ -364,17 +377,18 @@
                     <source media="(max-width: 639px)" srcset="images/shop-item-mobile3.jpg">
                     <img class="product-img" src="images/shop-item-desk3.jpg" alt="сота из фанеры">
                 </picture>
-
-                <div class="product-info">
-                    <h4 class="product-title"><a class="product-title-link" href="#0">шестиугольная рамка</a></h4>
-                    <div class="product-description">Необычная рамка для украшения дома из видео <a class="product-description-link" href="#0">"Как сделать рамку из подручных средств за 30 минут"</a></div>
-                </div>
-                <div class="prices_button">
-                    <div class="prices">
-                        <div class="product-previousPrice">500<span class="rub">Р</span></div>
-                        <div class="product-currentPrice">400<span class="rub">Р</span></div>
+                <div class="strange-goldish-border">
+                    <div class="product-info">
+                        <h4 class="product-title"><a class="product-title-link" href="#0">шестиугольная рамка</a></h4>
+                        <div class="product-description">Необычная рамка для украшения дома из видео <a class="product-description-link" href="#0">"Как сделать рамку из подручных средств за 30 минут"</a></div>
                     </div>
-                    <a class="button-goToShop" id="bord" href="#buybord">в магазин</a>
+                    <div class="prices_button">
+                        <div class="prices">
+                            <div class="product-previousPrice">500<span class="rub">Р</span></div>
+                            <div class="product-currentPrice">400<span class="rub">Р</span></div>
+                        </div>
+                        <a class="button-goToShop" id="bord" href="#buybord">в магазин</a>
+                    </div>
                 </div>
             </div>
         </div>

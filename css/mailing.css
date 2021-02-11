@@ -23,12 +23,6 @@
     margin: -15px auto
 }
 
-.subscribe-label,
-.button-sub-label {
-    position: absolute;
-    visibility: hidden;
-}
-
 .button-sub-label {
     bottom: 6px;
 }

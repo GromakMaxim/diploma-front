@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .product-photo {
@@ -26,6 +27,12 @@
 
 .product-img {
     width: 100%;
+}
+
+.strange-goldish-border {
+    height: 100%;
+    outline: 3px solid #b59f5b;
+    outline-offset: 3vw;
 }
 
 .product-title {
@@ -113,16 +120,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .product::after {
-        content: "";
-        position: absolute;
-        border: #b59f5b 3px solid;
-        width: 90%;
-        height: 12.5vw;
-        min-height: 180px;
-        top: 11vw;
-        left: 23px;
-    }
     .m-product-img,
     .tab-product-img {
         display: none;
@@ -141,7 +138,6 @@
         width: 47%;
         padding-left: 3%;
         padding-right: 3%;
-        margin-bottom: 15px;
     }
     .product-title {
         font-size: 2.3vw;
@@ -161,16 +157,6 @@
     .button-goToShop {
         height: 4vw;
         font-size: 1.3vw;
-    }
-    .product::after {
-        content: "";
-        position: absolute;
-        border: #b59f5b 3px solid;
-        width: 100%;
-        height: 26.5vw;
-        max-height: 285px;
-        top: 25vw;
-        left: 0;
     }
     .m-product-img,
     .desc-product-img {
@@ -195,11 +181,8 @@
         flex-direction: column;
         flex-wrap: nowrap;
     }
-    .product {
-        margin-bottom: 35px;
-    }
     .product-photo {
-        width: 80%;
+        width: 90%;
         display: flex;
         margin-left: auto;
         margin-right: auto;
@@ -208,13 +191,15 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .strange-goldish-border {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        outline-offset: 30px;
+    }
     .product-info {
         width: 100%;
         position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 10%;
-        padding-right: 10%;
     }
     .product-title-link {
         color: black;
@@ -238,19 +223,6 @@
         width: 140px;
         font-size: 12px;
         height: 47px;
-    }
-    .product-info::after {
-        content: "";
-        position: absolute;
-        border: #b59f5b 3px solid;
-        width: 100%;
-        height: 45vw;
-        max-height: 240px;
-        min-height: 200px;
-        top: -30px;
-        left: 0;
-        right: 0;
-        bottom: 0;
     }
     .desc-product-img,
     .tab-product-img {
