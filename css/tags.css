@@ -33,18 +33,12 @@
     padding: 0;
 }
 
-.tag {
-    height: 30px;
-    align-items: center;
-}
-
 .tag-link {
     color: #000;
     font-family: OpenSans-Bold;
     text-transform: uppercase;
     border: 3px solid #eee;
     padding: 5px 10px;
-    margin: auto
 }
 
 .tag-link:hover {
@@ -61,7 +55,8 @@
         font-size: 0.8vw;
     }
     .tag {
-        margin: 7px 0 0 5px;
+        margin-bottom: 1vw;
+        margin-right: 5px;
     }
     .tag-link {
         font-size: 0.7vw;
@@ -73,7 +68,8 @@
         font-size: 1.6vw;
     }
     .tag {
-        margin: 1.2vw 0 0 5px;
+        margin-bottom: 2.3vw;
+        margin-left: 5px;
     }
 }
 
@@ -87,7 +83,8 @@
         font-size: 4vw;
     }
     .tag {
-        margin: 6px 0 0 5px
+        margin-bottom: 4vw;
+        margin-left: 5px;
     }
     .tag-link {
         font-size: 3.1vw;

@@ -48,9 +48,9 @@
 
 .button-sub {
     width: 100%;
-    border: 2px solid #dadada;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: inline-block;
-    height: 47px;
     border-radius: 0;
     background-color: #b59f5b;
     margin-top: 20px;
@@ -76,7 +76,6 @@
     }
     .button-sub {
         font-size: 0.7vw;
-        height: 47px;
     }
 }
 
@@ -92,7 +91,6 @@
     }
     .button-sub {
         font-size: 1.6vw;
-        height: 47px;
     }
 }
 

@@ -55,7 +55,6 @@
 @media screen and (min-width:1200px) {
     .right-panel {
         width: 20%;
-        margin-left: 5%;
     }
     .new-posts-title,
     .new-post-title {

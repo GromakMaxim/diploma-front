@@ -74,7 +74,7 @@
 
 /* формируем кнопку закрытия */
 
-.close {
+.cls-but {
     top: -10px;
     right: -10px;
     width: 20px;
@@ -95,6 +95,7 @@
     text-decoration: none;
     font: 13px/20px 'Tahoma', Arial, sans-serif;
     font-weight: bold;
+    color: white;
     -webkit-transition: all ease .8s;
     -moz-transition: all ease .8s;
     -ms-transition: all ease .8s;
@@ -102,14 +103,13 @@
     transition: all ease .8s;
 }
 
-.close:before {
+.cls-but:before {
     color: rgba(255, 255, 255, 0.9);
-    content: "X";
     text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
     font-size: 12px;
 }
 
-.close:hover {
+.cls-but:hover {
     background-color: rgba(252, 20, 0, 0.8);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -143,6 +143,13 @@
     margin: -15px auto;
 }
 
+.popup-form {
+    display: flex;
+    flex-direction: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .how-often,
 .are-you-subscr,
 .tell-me {
@@ -152,12 +159,6 @@
     font-family: OpenSans-Regular;
 }
 
-.visits-frequency {
-    display: flex;
-    position: relative;
-}
-
-.period,
 .verify-subscription,
 .commit-box {
     width: 90%;
@@ -169,11 +170,11 @@
     position: absolute;
     background-image: url(../svg/form-arrows.svg);
     background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 20px;
     background-size: 10px;
-    right: -10px;
-    top: 25px;
+    right: 5px;
+    top: 20px;
     z-index: 999;
 }
 
@@ -231,9 +232,23 @@
     filter: brightness(120%);
 }
 
-.frequency,
+.frequency-container {
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frequency {
+    width: 100%;
+}
+
 .commit {
     width: 100%;
+}
+
+.frequency,
+.commit {
     background-color: #f4f7f6;
     border-radius: 0;
     border: 0;

@@ -19,7 +19,7 @@
     height: 3px;
     background-color: #e1d9bd;
     right: 0;
-    margin: -15px auto;
+    margin: -10px auto;
 }
 
 .trend {
@@ -67,27 +67,31 @@
 .trend-keywords {
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.trend-keyword {
+    margin-right: 20px;
+}
+
+.trend-keyword:last-child {
+    margin-right: 0px;
 }
 
 .trend-keyword-link {
     color: #b59f5b;
-    margin-right: 20px;
 }
 
 .trend-title-link {
     color: #FFF;
 }
 
-.trend-keywords {
-    margin-bottom: 10px;
-}
-
 @media screen and (min-width:1200px) {
     .trends-title {
         position: relative;
-        margin: auto;
-        height: 60px;
         font-size: 20px;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
     }
     .trends-title::after {
         bottom: 40px;
@@ -112,18 +116,15 @@
 @media screen and (min-width:641px) and (max-width:1199px) {
     .trends-title {
         position: relative;
-        height: 50px;
-        margin-bottom: 40px;
         font-size: 20px;
-    }
-    .trends-section {
-        margin-top: 20px;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
     }
     .trends {
         flex-wrap: wrap;
     }
     .trends-title::after {
-        bottom: 20px;
+        bottom: 30px;
     }
     .trend {
         width: calc(50% - 2.5px);
@@ -140,13 +141,10 @@
 }
 
 @media screen and (max-width:640px) {
-    .trends-section {
-        margin-top: 50px;
-    }
     .trends-title {
         font-size: 4vw;
-        height: 50px;
-        margin-bottom: 30px;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
     }
     .trends {
         flex-direction: column;
@@ -173,12 +171,7 @@
 @media screen and (max-width:640px) and (orientation:landscape) {
     .trends-title {
         position: relative;
-        height: 50px;
-        margin-bottom: 40px;
         font-size: 20px;
-    }
-    .trends-section {
-        margin-top: 20px;
     }
     .trends {
         flex-wrap: wrap;

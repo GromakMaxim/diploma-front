@@ -86,10 +86,7 @@
 
 .button-goToShop {
     width: 32%;
-    border: 2px solid #dadada;
-    display: inline-block;
     font-size: 0.7vw;
-    height: 2.3vw;
     border-radius: 0;
     background-color: #b59f5b;
     font-family: OpenSans-Bold;
@@ -97,6 +94,7 @@
     color: #FFF;
     text-align: center;
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 @media screen and (min-width:1200px) {
@@ -155,7 +153,6 @@
         margin-right: 20px;
     }
     .button-goToShop {
-        height: 4vw;
         font-size: 1.3vw;
     }
     .m-product-img,
@@ -220,9 +217,7 @@
         font-size: 4vw;
     }
     .button-goToShop {
-        width: 140px;
-        font-size: 12px;
-        height: 47px;
+        font-size: 2.8vw;
     }
     .desc-product-img,
     .tab-product-img {
