@@ -1,6 +1,7 @@
 .central-container {
     display: flex;
     width: 80%;
+    max-width: 1800px;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +29,10 @@
 
 .post-keyword {
     margin-right: 1.5vw;
+}
+
+.post-keyword:last-child {
+    margin-right: 0px;
 }
 
 .post-keyword-link {

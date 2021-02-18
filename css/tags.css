@@ -34,6 +34,7 @@
 }
 
 .tag-link {
+    display: block;
     color: #000;
     font-family: OpenSans-Bold;
     text-transform: uppercase;
