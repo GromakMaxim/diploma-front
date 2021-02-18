@@ -1,14 +1,4 @@
-.popup1 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin: auto;
-    align-items: center;
-    background-color: white;
-    border-radius: 4px;
-}
-
-.popup-and-overlay1 {
+.popup-and-overlay {
     visibility: hidden;
     display: flex;
     top: 0;
@@ -22,6 +12,16 @@
     /* фиксированное поцизионирование */
     cursor: default;
     /* тип курсара */
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
 }
 
 
@@ -221,7 +221,7 @@
 }
 
 @media screen and (min-width:1201px) {
-    .popup1 {
+    .popup {
         width: 20vw;
         min-width: 300px;
     }
@@ -246,7 +246,7 @@
 }
 
 @media screen and (min-width:641px) and (max-width:1200px) {
-    .popup1 {
+    .popup {
         width: 400px;
     }
     .popup-title {
@@ -280,7 +280,7 @@
 }
 
 @media screen and (max-width:640px) {
-    .popup1 {
+    .popup {
         width: 90vw;
         max-width: 400px;
     }
